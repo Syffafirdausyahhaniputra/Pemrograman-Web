@@ -1,4 +1,5 @@
 <?php
+//Langkah 2
 $a = 10;
 $b = 5;
 $c = $a + 5;
@@ -15,6 +16,7 @@ var_dump($e);
 
 echo "<hr>";
 
+//Langkah 5
 $nilaiMatematika = 5.1;
 $nilaiIPA = 6.7;
 $nilaiBahasaIndonesia = 9.3;
@@ -30,6 +32,7 @@ var_dump($rataRata);
 
 echo "<hr>";
 
+//Langkah 8
 $apakahSiswaLulus = true;
 $apakahSiswaSudahUjian = false;
 
@@ -39,6 +42,7 @@ var_dump($apakahSiswaSudahUjian);
 
 echo "<hr>";
 
+//Langkah 11
 $namaDepan = "Ibnu";
 $namaBelakang = 'Jakaria';
 
@@ -52,6 +56,7 @@ echo $namaLengkap;
 
 echo "<hr>";
 
+//Langkah 14
 $listMahasiswa = ["Wahid Abdullah", "Elmo Bachtiar", "Lendis Fabri"];
 echo $listMahasiswa[0];
 ?>
