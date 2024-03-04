@@ -1,5 +1,10 @@
 <?php
-//Langkah 2
+/*
+Membuat file baru bernama tipe_data.php
+*/
+/*
+Langkah 2: menambahkan kode program pada file tipe_data.php
+*/
 $a = 10;
 $b = 5;
 $c = $a + 5;
@@ -16,7 +21,9 @@ var_dump($e);
 
 echo "<hr>";
 
-//Langkah 5
+/*
+Langkah 5: menambahkan kode program pada file tipe_data.php
+*/
 $nilaiMatematika = 5.1;
 $nilaiIPA = 6.7;
 $nilaiBahasaIndonesia = 9.3;
@@ -32,7 +39,9 @@ var_dump($rataRata);
 
 echo "<hr>";
 
-//Langkah 8
+/*
+Langkah 8: menambahkan kode program pada file tipe_data.php
+*/
 $apakahSiswaLulus = true;
 $apakahSiswaSudahUjian = false;
 
@@ -42,7 +51,9 @@ var_dump($apakahSiswaSudahUjian);
 
 echo "<hr>";
 
-//Langkah 11
+/*
+Langkah 11: menambahkan kode program pada file tipe_data.php
+*/
 $namaDepan = "Ibnu";
 $namaBelakang = 'Jakaria';
 
@@ -56,7 +67,9 @@ echo $namaLengkap;
 
 echo "<hr>";
 
-//Langkah 14
+/*
+Langkah 14: menambahkan kode program pada file tipe_data.php
+*/
 $listMahasiswa = ["Wahid Abdullah", "Elmo Bachtiar", "Lendis Fabri"];
 echo $listMahasiswa[0];
 ?>
