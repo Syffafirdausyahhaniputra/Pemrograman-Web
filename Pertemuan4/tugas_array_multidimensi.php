@@ -13,9 +13,9 @@
             display: flex;
             flex-direction: column;
             margin-bottom: 20px;
-            border: 1px solid #ccc; /* Adds a border around the container */
-            padding: 10px; /* Adds padding inside the border */
-            max-width: 300px; /* Max width for the container */
+            border: 1px solid #ccc; /* tambah border */
+            padding: 10px; /* menambahkan padding dalam border */
+            max-width: 300px; /* lebar maksimal border */
         }
         .student-avatar {
             margin-right: 20px;
