@@ -1,48 +1,11 @@
 <?php
-$menu = [
-    [
-        "nama" => "Beranda"
-    ],
-    [
-        "nama" => "Berita",
-        "subMenu" => [
-            [
-                "nama" => "Wisata",
-                "subMenu" => [
-                    [
-                        "nama" => "Pantai"
-                    ],
-                    [
-                        "nama" => "Gunung"
-                    ]
-                ]
-            ],
-            [
-                "nama" => "Kuliner"
-            ],
-            [
-                "nama" => "Hiburan"
-            ]
-        ]
-    ],
-    [
-        "nama" => "Tentang"
-    ],
-    [
-        "nama" => "Kontak"
-    ],
-];
+function tampilkanAngka (int $jumlah, int $indeks = 1) {
+    echo "Perulangan ke-{$indeks} <br>";
 
-function tampilkanMenuBertingkat(array $menu) {
-    echo "<ul>";
-    foreach ($menu as $key => $item) {
-        echo "<li>{$item['nama']}</li>";
-        if (isset($item['subMenu']) && is_array($item['subMenu'])) {
-            tampilkanMenuBertingkat($item['subMenu']);
-        }
+    //panggil diri sendiri selama $indeks <= $jumlah
+    if ($indeks < $jumlah) {
+        tampilkanAngka($jumlah, $indeks + 1);
     }
-    echo "</ul>";
 }
-
-tampilkanMenuBertingkat($menu);
+tampilkanAngka(20);
 ?>
