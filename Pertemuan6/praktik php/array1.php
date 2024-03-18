@@ -12,6 +12,13 @@
     echo $Listdosen[2] . "<br>";
     echo $Listdosen[0] . "<br>";
     echo $Listdosen[1] . "<br>";
+
+    echo "<hr>";
+
+    // Menggunakan perulangan foreach
+    foreach ($Listdosen as $dosen) {
+        echo $dosen . "<br>";
+    }
     ?>
 </body>
 
